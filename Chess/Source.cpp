@@ -1325,7 +1325,7 @@ void select()
 								if (checkB(cursorHeight + index, cursorWidth + j))
 								{
 									mapArray[cursorHeight + index][cursorWidth + j] = open;
-									//don't need break?
+									//don't need break??
 									break;
 								}
 								break;

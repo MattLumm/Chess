@@ -7,3 +7,11 @@ Interact with the board by using arrow keys and enter to select and move chess p
 
 The program should prevent you from making any illegal moves.
 Also included the little known "an pasan" rule that allows pawns to capture pawns that passed them with the double initial move.
+
+# How to Use
+
+The Source.exe file within the Chess folder should be able to run the program fine.
+
+
+#Known Issues
+Currently only able move the white(lowwer case) pieces, will resolve this issue at a latter date

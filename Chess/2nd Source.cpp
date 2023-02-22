@@ -268,7 +268,7 @@ void select()
 				mapArray[i][cursorWidth] = open;
 			}
 			//checks for black 
-			if (checkB(i,cursorWidth)
+			if (checkB(i,cursorWidth))
 			{
 				//checks for king
 				if (mapArray[i][cursorWidth] == bKing)

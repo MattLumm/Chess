@@ -616,11 +616,7 @@ void select()
 	case open:
 
 		turnOver();
-		//remove this when done debuging
-		if (turn == true)
-			cout << "true";
-		if (turn == false)
-			cout << "false";
+
 		//if (mapArray[cursorHeight][cursorWidth] == open)
 		
 			//for castling
@@ -1442,7 +1438,7 @@ void cursorMove(int arry[][mapWidth])
 	//how the arrow keys work
 	//pause so a new board isn't constantly printed
 	//draw maps method was for debuging
-	drawMapX();
+	//drawMapX();
 	//drawMapCopy();
 	system("pause");
 	for (int i = 0; i < numKeys; i++)
